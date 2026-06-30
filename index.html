@@ -12,6 +12,9 @@
 
 <body>
 
+<!-- BOTÃO TOPO -->
+<button id="topo">⬆</button>
+
 <header>
     <h2>🐂 AgroPecuária Brasil</h2>
 
@@ -19,26 +22,30 @@
         <a href="#inicio">Início</a>
         <a href="#noticias">Notícias</a>
         <a href="#categorias">Categorias</a>
+        <a href="#sobre">Sobre</a>
         <a href="#contato">Contato</a>
     </nav>
+
+    <button id="darkMode">🌙</button>
 </header>
 
-<!-- HERO COM IMAGEM -->
+<!-- HERO -->
 <section class="hero" id="inicio">
 
     <div class="hero-texto">
-
-        <h1>O futuro do agronegócio começa aqui</h1>
-
-        <p>Notícias sobre pecuária de corte, leite, genética, tecnologia e mercado agropecuário.</p>
-
-        <button>Explorar Notícias</button>
-
+        <h1>O futuro da pecuária começa com tecnologia</h1>
+        <p>Informação sobre corte, leite, genética, nutrição e mercado agropecuário.</p>
+        <button id="btn">Explorar</button>
     </div>
 
 </section>
 
-<!-- NOTICIAS COM IMAGENS -->
+<!-- PESQUISA -->
+<section class="pesquisa">
+    <input type="text" id="buscar" placeholder="Pesquisar notícias...">
+</section>
+
+<!-- NOTICIAS -->
 <section id="noticias">
 
 <h2 class="titulo">Últimas Notícias</h2>
@@ -46,74 +53,92 @@
 <div class="grid">
 
     <div class="card">
-        <img src="https://images.unsplash.com/photo-1602524819407-3f5d0b0d5f1a?auto=format&fit=crop&w=800&q=60">
+        <img src="https://images.unsplash.com/photo-1602524819407-3f5d0b0d5f1a">
         <h3>Pecuária de Corte</h3>
-        <p>Melhoramento do rebanho com nutrição avançada.</p>
+        <p>Melhoria genética aumenta produção de carne bovina.</p>
     </div>
 
     <div class="card">
-        <img src="https://images.unsplash.com/photo-1596733430284-f7437764b1a8?auto=format&fit=crop&w=800&q=60">
+        <img src="https://images.unsplash.com/photo-1596733430284-f7437764b1a8">
         <h3>Pecuária Leiteira</h3>
-        <p>Produção de leite com tecnologia e eficiência.</p>
+        <p>Tecnologia melhora qualidade e volume do leite.</p>
     </div>
 
     <div class="card">
-        <img src="https://images.unsplash.com/photo-1605559424843-9e0c6f5f6d3b?auto=format&fit=crop&w=800&q=60">
+        <img src="https://images.unsplash.com/photo-1604881991720-f91add269bed">
         <h3>Pastagens</h3>
-        <p>Manejo correto para maior produtividade.</p>
+        <p>Manejo correto aumenta produtividade do solo.</p>
     </div>
 
     <div class="card">
-        <img src="https://images.unsplash.com/photo-1625246333195-78d9c38b0f2c?auto=format&fit=crop&w=800&q=60">
+        <img src="https://images.unsplash.com/photo-1625246333195-78d9c38b0f2c">
         <h3>Tecnologia Rural</h3>
-        <p>Drones e sensores no campo.</p>
+        <p>Drones e sensores revolucionam o campo.</p>
     </div>
 
 </div>
 
 </section>
 
-<!-- CATEGORIAS COM ICONES -->
+<!-- CATEGORIAS -->
 <section id="categorias">
 
 <h2 class="titulo">Categorias</h2>
 
 <div class="categorias">
-
     <div>🐂 Corte</div>
     <div>🥛 Leite</div>
     <div>🌱 Pastagem</div>
     <div>🧬 Genética</div>
     <div>🚜 Tecnologia</div>
     <div>💰 Mercado</div>
-
 </div>
 
 </section>
 
-<!-- BANNER SECUNDÁRIO COM IMAGEM -->
-<section class="banner2">
+<!-- ESTATISTICAS -->
+<section class="stats" id="stats">
 
-    <h2>Inovação e produtividade no campo</h2>
+<div>
+<h2 class="contador" data-target="234">0</h2>
+<p>Milhões de bovinos</p>
+</div>
 
+<div>
+<h2 class="contador" data-target="1">0</h2>
+<p>Maior exportador mundial</p>
+</div>
+
+<div>
+<h2 class="contador" data-target="34">0</h2>
+<p>Bilhões de litros de leite</p>
+</div>
+
+</section>
+
+<!-- SOBRE -->
+<section id="sobre">
+<h2 class="titulo">Sobre</h2>
+<p class="sobre">
+Portal AgroPecuária Brasil traz informações sobre pecuária moderna, genética, nutrição, tecnologia e mercado.
+</p>
 </section>
 
 <!-- CONTATO -->
 <section id="contato">
-
 <h2 class="titulo">Contato</h2>
 
 <form>
-    <input type="text" placeholder="Nome">
-    <input type="email" placeholder="Email">
-    <textarea placeholder="Mensagem"></textarea>
-    <button>Enviar</button>
+<input type="text" placeholder="Nome">
+<input type="email" placeholder="Email">
+<textarea placeholder="Mensagem"></textarea>
+<button>Enviar</button>
 </form>
 
 </section>
 
 <footer>
-    <p>🐂 AgroPecuária Brasil - 2026</p>
+<p>🐂 AgroPecuária Brasil - 2026</p>
 </footer>
 
 <script src="script.js"></script>
